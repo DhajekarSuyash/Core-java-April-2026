@@ -15,6 +15,9 @@ public class nestedifcondition {
 			if(a % 3 == 0) {
 				System.out.println(" it is a good number");
 			}
+			else {
+				System.out.println("it is a bad number");
+			}
 		}
 		
 		
