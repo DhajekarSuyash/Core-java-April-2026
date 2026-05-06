@@ -11,7 +11,7 @@ public class StringTest {
 
 		char c = day.charAt(2);
 		System.out.println(c);
-
+		
 		String dayLower = day.toLowerCase();
 		System.out.println(dayLower);
 
