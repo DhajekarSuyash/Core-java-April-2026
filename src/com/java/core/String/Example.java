@@ -5,17 +5,14 @@ public class Example {
 	public static void main(String[] args) {
 		
 		String s = "TUESDAY";
+		System.out.println(System.identityHashCode(s));
 		
-		char c = s.charAt(2);
-		System.out.println(c);
 		
-		for(int i = 0 ; i <= s.length(); i++ ) {
-			
-			if(i == 2) {
-				System.out.println(s.charAt(i));
-			}
-			
-		}
+		
+		
+		
+		String x =s.toLowerCase(); 
+		System.out.println(System.identityHashCode(s));
 	}
 
 }
