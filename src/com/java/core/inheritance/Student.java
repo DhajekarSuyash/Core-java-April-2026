@@ -3,10 +3,6 @@ package com.java.core.inheritance;
 //PARENT
 public class Student {
 	
-	public Student() {
-		
-	}
-	
 	public int a =	12;
 
 	public int d = 50;

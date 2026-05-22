@@ -1,11 +1,9 @@
 package com.java.core.inheritance;
 
 //CHILD
-public class Shubham  extends Student
+public class Shubham 
+extends Student
 {
-	public Shubham() {
-		
-	}
 	
   public int b = 200;
   
