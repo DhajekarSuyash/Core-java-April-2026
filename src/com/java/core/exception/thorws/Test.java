@@ -10,20 +10,20 @@ public class Test {
 		try {
 			o.divison(12, 0);
 		}
-		catch (Exception e) {
+		catch (ArithmeticException e) {
 			System.out.println("Exception happened");
+		}catch (NullPointerException e) {
+			System.out.println("Null pointer came");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		
 		System.out.println("VVIMP code");
 		
 		
 		
-		try {
-			o.readFile();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+
 		
 		
 		
